@@ -6,7 +6,7 @@ Animated Debit Card
 ![Screenrecorder-2020-07-23-19-00-39-937 1](https://user-images.githubusercontent.com/30715919/88292994-01b88300-cd18-11ea-9e61-30a4c5584761.gif)
 
 Concepts used:
-# IMPLICIT ANIMATION:
+# Implicit Animation:
 "Implicit Animations" are animations that use one of the libraries built-in animation widgets to help with the animation. As the docs put it: "... implicit animations trade control for convenience—they manage animation effects so that you don’t have to". State management is implied here. An animation widget will have properties informing the look of the container.
 
 # Transform Widget:
