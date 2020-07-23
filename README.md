@@ -1,6 +1,11 @@
-# debitcard
+# Debitcard 3D Animation
 
 Animated Debit Card
+
+Concept used:
+# IMPLICIT ANIMATION:
+"Implicit Animations" are animations that use one of the libraries built-in animation widgets to help with the animation. As the docs put it: "... implicit animations trade control for convenience—they manage animation effects so that you don’t have to". State management is implied here. An animation widget will have properties informing the look of the container.
+
 
 ## Getting Started
 
