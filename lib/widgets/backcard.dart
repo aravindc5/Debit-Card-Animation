@@ -53,7 +53,7 @@ class BackCard extends StatelessWidget {
                             child: Container(
                               height: MediaQuery.of(context).size.height * 0.04,
                               width: MediaQuery.of(context).size.width * 0.03,
-                              child: Image(
+                              child: const Image(
                                 image: NetworkImage(
                                     'https://www.searchpng.com/wp-content/uploads/2019/02/Paytm-Logo-With-White-Border-PNG-image-1024x325.png'),
                               ),

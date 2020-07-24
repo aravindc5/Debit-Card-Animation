@@ -20,7 +20,7 @@ class FrontCard extends StatelessWidget {
               Container(
                 height: MediaQuery.of(context).size.height * 0.05,
                 width: MediaQuery.of(context).size.width * 0.2,
-                child: Image(
+                child: const Image(
                     image: NetworkImage(
                         'https://www.searchpng.com/wp-content/uploads/2019/02/Paytm-Logo-With-White-Border-PNG-image-1024x325.png')),
               ),
@@ -38,9 +38,9 @@ class FrontCard extends StatelessWidget {
                 height: MediaQuery.of(context).size.height * 0.02,
               ),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: 20),
+                margin: const EdgeInsets.symmetric(horizontal: 20),
                 width: double.maxFinite,
-                child: Text(
+                child: const Text(
                   '1234   5678   1234   5678',
                   style: TextStyle(
                       fontSize: 25,
@@ -59,11 +59,11 @@ class FrontCard extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
+                      const Text(
                         'VALID UPTO',
                         style: TextStyle(fontSize: 10),
                       ),
-                      Text(
+                      const Text(
                         '10/25',
                         style: TextStyle(
                             fontSize: 18, fontWeight: FontWeight.bold),
@@ -71,7 +71,7 @@ class FrontCard extends StatelessWidget {
                       SizedBox(
                         width: MediaQuery.of(context).size.width * 0.02,
                       ),
-                      Text(
+                      const Text(
                         'PLATINUM',
                         style: TextStyle(
                             fontSize: 20,
@@ -87,7 +87,7 @@ class FrontCard extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
+                    const Text(
                       'ARAVIND C',
                       style: TextStyle(
                           fontSize: 18,
@@ -97,7 +97,7 @@ class FrontCard extends StatelessWidget {
                     Container(
                       height: MediaQuery.of(context).size.height * 0.06,
                       width: 70,
-                      child: Image(
+                      child: const Image(
                           image: NetworkImage(
                               'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rupay-Logo.png/1199px-Rupay-Logo.png')),
                     ),

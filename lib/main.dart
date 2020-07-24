@@ -25,8 +25,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   static const double pi = 3.14;
   double _rotationFactor = 0;
-  double frontOpacity = 1;
-  double backOpacity = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: AnimatedSwitcher(
                   duration: Duration(seconds: 3),
                   child: _rotationFactor < 0.5 ? FrontCard() : BackCard())),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Slider(
